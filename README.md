@@ -13,7 +13,7 @@ Aplicar un control básico de red (tipo “firewall” a nivel L3/L4) usando un 
 4. He validado la conectividad con una prueba desde otra máquina (Test-NetConnection).
 
 ## Configuración utilizada
-- NSG: `NSG-Web-FrontEnd`
+- NSG: `snet-frontend-nsg`
 - Reglas inbound:
   - Allow-HTTP-80 (priority 100)
   - Allow-HTTPS-443 (priority 110)
