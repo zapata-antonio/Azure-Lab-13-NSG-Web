@@ -5,7 +5,7 @@
 Aplicar un control básico de red (tipo “firewall” a nivel L3/L4) usando un Network Security Group, para que la subred FrontEnd solo permita el tráfico web necesario (HTTP/HTTPS). La idea es dejar la subred preparada para servicios públicos sin abrir puertos de más.
 
 ## Qué he hecho en este laboratorio
-1. He creado un NSG llamado `NSG-Web-FrontEnd`.
+1. He creado un NSG llamado `snet-frontend-nsg`.
 2. He añadido reglas de entrada para permitir únicamente:
    - TCP/80 (HTTP)
    - TCP/443 (HTTPS)
