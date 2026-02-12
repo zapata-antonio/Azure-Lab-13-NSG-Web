@@ -1,5 +1,5 @@
-# Azure-Lab-13-NSG-Web
-# Lab 12 - Filtrado de tráfico con NSG (Web en FrontEnd)
+
+# Lab 13 - Filtrado de tráfico con NSG (Web en FrontEnd)
 
 ## Objetivo
 Aplicar un control básico de red (tipo “firewall” a nivel L3/L4) usando un Network Security Group, para que la subred FrontEnd solo permita el tráfico web necesario (HTTP/HTTPS). La idea es dejar la subred preparada para servicios públicos sin abrir puertos de más.
