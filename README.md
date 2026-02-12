@@ -32,9 +32,9 @@ Aplicar un control básico de red (tipo “firewall” a nivel L3/L4) usando un 
 [<img src="images/03-test-netconnection.png" width="800">](images/03-test-netconnection.png)
 
 ## Checklist de verificación
-- [ ] Solo puertos 80/443 permitidos en la subred FrontEnd
-- [ ] NSG aplicado a nivel de subred (no solo a una VM)
-- [ ] Conectividad validada desde otra máquina/subred
+- [x] Solo puertos 80/443 permitidos en la subred FrontEnd
+- [x] NSG aplicado a nivel de subred (no solo a una VM)
+- [x] Conectividad validada desde otra máquina/subred
 
 ## Qué le diría a un cliente / en entrevista
 “Aplico el NSG a nivel de subred para que las reglas se hereden por defecto. Así evito que la seguridad dependa de cómo cree cada VM el usuario y mantengo el FrontEnd abierto solo a lo necesario (web), dejando el resto cerrado.”
